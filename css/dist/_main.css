@@ -1,0 +1,53 @@
+#mainCanvas {
+  width: 100%;
+  height: 800px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  box-sizing: border-box; }
+  #mainCanvas > div[class$="-space"] {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box; }
+  #mainCanvas > div[class*="enemie"] {
+    height: 70%;
+    background-color: brown;
+    display: inline; }
+    #mainCanvas > div[class*="enemie"] div.aliens {
+      display: inline-block;
+      box-sizing: border-box; }
+      #mainCanvas > div[class*="enemie"] div.aliens > div[class^="alien"] {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block; }
+      #mainCanvas > div[class*="enemie"] div.aliens > div[class$="-red"] {
+        background-color: red; }
+      #mainCanvas > div[class*="enemie"] div.aliens > div[class$="-blue"] {
+        background-color: blue; }
+      #mainCanvas > div[class*="enemie"] div.aliens > div[class$="-green"] {
+        background-color: green; }
+  #mainCanvas > div[class*="user"] {
+    height: 30%;
+    background-color: gray;
+    display: flex;
+    justify-content: center; }
+    #mainCanvas > div[class*="user"] div.spaceship {
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      background-color: blue;
+      display: flex;
+      flex: none;
+      align-self: flex-end;
+      justify-content: center;
+      box-sizing: border-box; }
+      #mainCanvas > div[class*="user"] div.spaceship > img {
+        width: auto;
+        height: auto;
+        min-height: 100%;
+        max-height: 100%; }
+
+/*# sourceMappingURL=_main.css.map */
