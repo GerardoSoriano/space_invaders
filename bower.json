@@ -1,0 +1,21 @@
+{
+  "name": "space_invaders",
+  "description": "Juego de POI",
+  "main": "app/js/index.js",
+  "authors": [
+    "gerardosoriano97@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GerardoSoriano/space_invaders",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/resources/libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
